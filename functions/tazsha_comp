@@ -1,0 +1,5 @@
+# vim: syntax=zsh
+
+tazsha_comp() {
+    [[ ( ! -s "${1}.zwc" || "${1}" -nt "${1}.zwc") ]] && zcompile "${1}"
+}

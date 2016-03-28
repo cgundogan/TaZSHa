@@ -1,0 +1,15 @@
+alias b='${BROWSER}'
+alias cp='cp -i'
+alias e='${EDITOR}'
+alias ln='ln -i'
+alias mkdir='mkdir -p'
+alias mv='mv -i'
+alias p='${PAGER}'
+alias rm='rm -i'
+
+alias ls='ls --color=auto -F'
+alias l='ls -lh'
+alias lr='l -R'
+alias la='l -A'
+
+alias grep='grep --color=auto'

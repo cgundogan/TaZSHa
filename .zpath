@@ -1,0 +1,8 @@
+# vim: syntax=zsh
+
+typeset -gU cdpath fpath mailpath path
+
+path=(
+    "/usr/lib/ccache/bin"
+    $path
+)
