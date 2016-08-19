@@ -19,7 +19,6 @@ setopt extended_glob
     $(tazsha_comp "$HOME/.zshenv")
     $(tazsha_comp "$TAZSHADIR/.zshenv")
     $(tazsha_comp "$TAZSHADIR/.zshrc")
-    $(tazsha_comp "$TAZSHADIR/.zprofile")
     $(tazsha_comp "$TAZSHADIR/.zpath")
     $(tazsha_comp "$TAZSHADIR/.ztazsha")
     for fun in ${TAZSHADIR}/functions/^*.zwc(.); do
