@@ -1,4 +1,6 @@
-[[ "$SHLVL" -eq 1 ]] && source "$TAZSHADIR/.zpath"
+if [[ "$SHLVL" -eq 1 ]] || [[ ! -z "$TMUX" ]]; then
+    source "$TAZSHADIR/.zpath"
+fi
 
 source "$TAZSHADIR/.ztazsha"
 
