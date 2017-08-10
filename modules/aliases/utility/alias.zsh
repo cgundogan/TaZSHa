@@ -7,8 +7,8 @@ alias mv='mv -i'
 alias p='${PAGER}'
 alias rm='rm -i'
 
-alias ls='ls --color=auto -F'
-alias l='ls -lh'
+alias ll='ls --color=auto -F'
+alias l='ll -lh'
 alias lr='l -R'
 alias la='l -A'
 
