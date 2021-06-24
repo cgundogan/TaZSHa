@@ -3,6 +3,7 @@
 typeset -gU cdpath fpath mailpath path
 
 path=(
+    "/home/cgundogan/.rvm/rubies/default/bin"
     "/usr/lib/ccache/bin"
     $path
 )
